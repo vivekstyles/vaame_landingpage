@@ -14,9 +14,9 @@ const Benefits = () => {
           className="md:max-w-md lg:max-w-2xl"
           title={
             <>
-              Chat Smarter, Not Harder with{" "}
+              Query Smarter, Not Harder with{" "}
               <span className="inline-block relative font-semibold">
-                Brainwave
+                Vaame
                 <img
                   src={curve}
                   className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
@@ -62,7 +62,7 @@ const Benefits = () => {
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <div className="absolute inset-0 opacity-0 transition-opacity ">
                   {benefit.imageUrl && (
                     <img
                       src={benefit.imageUrl}
@@ -83,5 +83,8 @@ const Benefits = () => {
     </Section>
   );
 };
+
+
+
 
 export default Benefits;

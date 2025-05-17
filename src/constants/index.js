@@ -43,11 +43,11 @@ export const navigation = [
     title: "Features",
     url: "#features",
   },
-  {
-    id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
+  // {
+  //   id: "1",
+  //   title: "Pricing",
+  //   url: "#pricing",
+  // },
   {
     id: "2",
     title: "How to use",
@@ -55,16 +55,16 @@ export const navigation = [
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Integration",
+    url: "#integration",
   },
-  {
-    id: "4",
-    title: "Source Code",
-    url: links.sourceCode,
-    onlyMobile: true,
-    external: true,
-  },
+  // {
+  //   id: "4",
+  //   title: "Source Code",
+  //   url: links.sourceCode,
+  //   onlyMobile: true,
+  //   external: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -201,6 +201,92 @@ export const collabApps = [
   },
 ];
 
+export const dbIntegrationText =
+  "Effortlessly connect all your databases to Vaame for unified access, instant AI-powered SQL generation, and enterprise-grade security. Manage and analyze your data from one intuitive platform.";
+
+export const dbIntegrationContent = [
+  {
+    id: "0",
+    title: "Supports All Major Databases",
+    text: "Connect to MySQL, MS SQL, Oracle, SQLite, PostgreSQL, MongoDB, and more with just a few clicks.",
+  },
+  {
+    id: "1",
+    title: "Unified Data Access",
+    text: "Query and manage data from multiple sources in a single, user-friendly interface.",
+  },
+  {
+    id: "2",
+    title: "No-Code Setup",
+    text: "Integrate your databases without writing a single line of code. Vaame makes onboarding effortless.",
+  },
+  {
+    id: "3",
+    title: "Enterprise-Grade Security",
+    text: "All integrations use robust encryption and security best practices to keep your data safe.",
+  },
+];
+
+export const dbApps = [
+  {
+    id: "0",
+    title: "MySQL",
+    icon: figma,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "1",
+    title: "MS SQL",
+    icon: notion,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "2",
+    title: "Oracle",
+    icon: discord,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "3",
+    title: "SQLite",
+    icon: slack,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "4",
+    title: "PostgreSQL",
+    icon: protopie,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "5",
+    title: "MongoDB",
+    icon: framer,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "6",
+    title: "Firebase",
+    icon: raindrop,
+    width: 34,
+    height: 34,
+  },
+  {
+    id: "7",
+    title: "More",
+    icon: raindrop,
+    width: 34,
+    height: 34,
+  },
+];
+
+
 export const pricing = [
   {
     id: "0",
@@ -240,19 +326,72 @@ export const pricing = [
   },
 ];
 
+// export const benefits = [
+//   {
+//     id: "0",
+//     title: "Ask anything",
+//     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+//     backgroundUrl: "/src/assets/benefits/card-1.svg",
+//     iconUrl: benefitIcon1,
+//     imageUrl: benefitImage2,
+//   },
+//   {
+//     id: "1",
+//     title: "Improve everyday",
+//     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+//     backgroundUrl: "/src/assets/benefits/card-2.svg",
+//     iconUrl: benefitIcon2,
+//     imageUrl: benefitImage2,
+//     light: true,
+//   },
+//   {
+//     id: "2",
+//     title: "Connect everywhere",
+//     text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+//     backgroundUrl: "/src/assets/benefits/card-3.svg",
+//     iconUrl: benefitIcon3,
+//     imageUrl: benefitImage2,
+//   },
+//   {
+//     id: "3",
+//     title: "Fast responding",
+//     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+//     backgroundUrl: "/src/assets/benefits/card-4.svg",
+//     iconUrl: benefitIcon4,
+//     imageUrl: benefitImage2,
+//     light: true,
+//   },
+//   {
+//     id: "4",
+//     title: "Ask anything",
+//     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+//     backgroundUrl: "/src/assets/benefits/card-5.svg",
+//     iconUrl: benefitIcon1,
+//     imageUrl: benefitImage2,
+//   },
+//   {
+//     id: "5",
+//     title: "Improve everyday",
+//     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+//     backgroundUrl: "/src/assets/benefits/card-6.svg",
+//     iconUrl: benefitIcon2,
+//     imageUrl: benefitImage2,
+//   },
+// ];
+
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Connect Any Database",
+    text: "Easily link Vaame to MySQL, MS SQL, Oracle, SQLite, PostgreSQL, and more. Start querying your data instantly-no complex setup required.",
     backgroundUrl: "/src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "AI-Powered SQL Generation",
+    text: "Describe your data needs in plain English and let Vaame’s AI generate complex, optimized SQL queries for you in seconds.",
     backgroundUrl: "/src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -260,16 +399,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "No Coding Required",
+    text: "Get the exact data you need without writing a single line of SQL. Vaame handles everything from simple lookups to advanced joins.",
     backgroundUrl: "/src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Lightning-Fast Results",
+    text: "Vaame delivers instant results-generate, review, and run SQL queries in seconds, so you can focus on insights, not syntax.",
     backgroundUrl: "/src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -277,21 +416,24 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Seamless Collaboration",
+    text: "Share queries and results with your team, track query history, and streamline your workflow-all within Vaame.",
     backgroundUrl: "/src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Enterprise-Grade Security",
+    text: "Your data is protected with top-tier security protocols. Vaame ensures safe connections and privacy for every query.",
     backgroundUrl: "/src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
 ];
+
+
+
 
 export const socials = [
   {

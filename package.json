@@ -15,6 +15,7 @@
     "react-dom": "^18.3.1",
     "react-just-parallax": "^3.1.16",
     "react-router-dom": "^7.5.3",
+    "react-text-gradients": "^1.0.2",
     "scroll-lock": "^2.1.5",
     "typewriter-effect": "^2.22.0"
   },

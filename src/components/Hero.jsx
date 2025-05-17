@@ -27,26 +27,26 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Explore the Possibilities of
             <br />
-            <Typewriter
-              options={{
-                strings: [
-                  "AI Chatting",
-                  "Photo Editing",
-                  "Video Generation",
-                  "Image Generation",
-                  "Code Generation",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
+            <div className="bg-gradient-to-r from-[#17acff] to-[#ff68f0] bg-clip-text text-transparent">
+              <Typewriter 
+                options={{
+                  strings: [
+                    "AI-Powered SQL Query Generation",
+                    // "AI Chatting",
+                    // "Code Generation",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </div>
           </h1>
 
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleast the power of AI within Brainwave. Upgrade your productivity
+            Unleash the power of AI within Vaame. Upgrade your productivity
             with{" "}
             <span className="inline-block relative font-semibold">
-              Brainwave
+              Vaame
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
@@ -55,7 +55,7 @@ const Hero = () => {
                 alt="Curve"
               />
             </span>
-            , the open AI chat app.
+            , the AI-driven SQL query platform.
           </p>
 
           <Button href="#pricing" white>
@@ -64,13 +64,13 @@ const Hero = () => {
         </div>
 
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-          <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
+          <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient bg-gradient-to-r from-[#17acff] to-[#ff68f0]">
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={robot}
+                  src={'https://framerusercontent.com/images/eBRVfeaykviRsrVkGqRRbne8Nao.png'}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%] pointer-events-none select-none"
                   width={1024}
                   height={490}
@@ -80,19 +80,23 @@ const Hero = () => {
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
 
                 <ScrollParallax isAbsolutelyPositioned>
-                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
+                  {/* <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
                     {heroIcons.map((icon, index) => (
                       <li className="p-5" key={index}>
                         <img src={icon} width={24} height={25} alt={icon} />
                       </li>
                     ))}
-                  </ul>
+                  </ul> */}
                 </ScrollParallax>
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
                     title="Code generation"
+                  />
+                  <Notification
+                    className="hidden absolute -left-[5.5rem] top-[11rem] w-[18rem] xl:flex"
+                    title="SQL generation"
                   />
                 </ScrollParallax>
               </div>
@@ -102,13 +106,13 @@ const Hero = () => {
           </div>
 
           <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-            <img
+            {/* <img
               src={heroBackground}
               className="w-full pointer-events-none select-none"
               width={1440}
               height={1800}
               alt="Hero"
-            />
+            /> */}
           </div>
 
           <BackgroundCircles />

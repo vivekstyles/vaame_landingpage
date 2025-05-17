@@ -1,3 +1,4 @@
+import vaame from "./vaame.svg";
 import brainwave from "./brainwave.svg";
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.svg";
@@ -77,6 +78,7 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
+  vaame,
   brainwave,
   check,
   check2,
