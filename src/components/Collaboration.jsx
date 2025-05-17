@@ -1,4 +1,4 @@
-import { brainwaveSymbol, check, curve } from "../assets";
+import { brainwaveSymbol, check, curve, vaame } from "../assets";
 import { collabApps, collabContent, collabText,dbApps,dbIntegrationContent,dbIntegrationText } from "../constants";
 import Button from "./Button";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
@@ -105,7 +105,7 @@ import Section from "./Section";
 
 const DatabaseIntegration = () => {
   return (
-    <Section crosses>
+    <Section crosses id="integration">
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
@@ -143,7 +143,7 @@ const DatabaseIntegration = () => {
             ))}
           </ul>
 
-          <Button>Connect Your Database</Button>
+          <Button href='https://waitlist.vaame.tech/'>Connect Your Database</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
@@ -156,9 +156,9 @@ const DatabaseIntegration = () => {
               <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
                   <img
-                    src={brainwaveSymbol}
-                    width={48}
-                    height={48}
+                    src={vaame}
+                    width={100}
+                    height={100}
                     alt="Vaame"
                   />
                 </div>

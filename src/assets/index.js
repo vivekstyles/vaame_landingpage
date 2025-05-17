@@ -76,6 +76,11 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import mysql from "./databases/mysql.svg";
+import oracle from "./databases/oracle.svg";
+import postgresql from "./databases/postgresql.svg";
+import sqlite from "./databases/sqlite.svg";
+import mssql from "./databases/mssql.svg";
 
 export {
   vaame,
@@ -148,4 +153,9 @@ export {
   instagram,
   telegram,
   twitter,
+  mysql,
+  oracle,
+  postgresql,
+  sqlite,
+  mssql
 };

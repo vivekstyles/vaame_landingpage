@@ -58,8 +58,8 @@ const Hero = () => {
             , the AI-driven SQL query platform.
           </p>
 
-          <Button href="#pricing" white>
-            Get started
+          <Button href="https://waitlist.vaame.tech/" white>
+            Join waitlist
           </Button>
         </div>
 

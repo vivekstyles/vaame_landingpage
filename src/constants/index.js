@@ -34,6 +34,11 @@ import {
   telegram,
   twitter,
   yourlogo,
+  mysql,
+  postgresql,
+  oracle,
+  sqlite,
+  mssql
 } from "../assets";
 import { links } from "../config";
 
@@ -71,7 +76,7 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [mysql, oracle, postgresql, mssql,sqlite];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -231,58 +236,58 @@ export const dbApps = [
   {
     id: "0",
     title: "MySQL",
-    icon: figma,
-    width: 34,
-    height: 34,
+    icon: mysql,
+    width: 60,
+    height: 60,
   },
   {
     id: "1",
     title: "MS SQL",
-    icon: notion,
-    width: 34,
-    height: 34,
+    icon: mssql,
+    width: 60,
+    height: 60,
   },
   {
     id: "2",
     title: "Oracle",
-    icon: discord,
-    width: 34,
-    height: 34,
+    icon: oracle,
+    width: 60,
+    height: 60,
   },
   {
     id: "3",
     title: "SQLite",
-    icon: slack,
-    width: 34,
-    height: 34,
+    icon: sqlite,
+    width: 60,
+    height: 60,
   },
   {
     id: "4",
     title: "PostgreSQL",
-    icon: protopie,
-    width: 34,
-    height: 34,
+    icon: postgresql,
+    width: 60,
+    height: 60,
   },
   {
     id: "5",
     title: "MongoDB",
-    icon: framer,
-    width: 34,
-    height: 34,
+    icon: mssql,
+    width: 60,
+    height: 60,
   },
   {
     id: "6",
     title: "Firebase",
-    icon: raindrop,
-    width: 34,
-    height: 34,
+    icon: oracle,
+    width: 60,
+    height: 60,
   },
   {
     id: "7",
     title: "More",
-    icon: raindrop,
-    width: 34,
-    height: 34,
+    icon: postgresql,
+    width: 60,
+    height: 60,
   },
 ];
 

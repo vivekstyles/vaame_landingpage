@@ -4,7 +4,7 @@ const CompanyLogos = ({ className }) => {
   return (
     <div className={className}>
       <h5 className="tagline mb-6 text-center text-n-1/50">
-        Helping people create beutiful content at
+        Automate complex database queries and unlock your team's full potential with our revolutionary AI-driven SQL query generator. Say goodbye to tedious manual query writing and hello to efficient, accurate database interactions.
       </h5>
       <ul className="flex">
         {companyLogos.map((logo, i) => (
