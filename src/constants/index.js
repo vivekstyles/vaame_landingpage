@@ -212,13 +212,13 @@ export const dbIntegrationText =
 export const dbIntegrationContent = [
   {
     id: "0",
-    title: "Supports All Major Databases",
+    title: "Popular Databases",
     text: "Connect to MySQL, MS SQL, Oracle, SQLite, PostgreSQL, MongoDB, and more with just a few clicks.",
   },
   {
     id: "1",
-    title: "Unified Data Access",
-    text: "Query and manage data from multiple sources in a single, user-friendly interface.",
+    title: "Excel & CSV Files",
+    text: "Drag-and-drop any spreadsheet or CSV and start querying immediately.",
   },
   {
     id: "2",
@@ -227,6 +227,11 @@ export const dbIntegrationContent = [
   },
   {
     id: "3",
+    title: "Cloud Services",
+    text: "Sync with Google Sheets and other data sources seamlessly for live updates.",
+  },
+  {
+    id: "4",
     title: "Enterprise-Grade Security",
     text: "All integrations use robust encryption and security best practices to keep your data safe.",
   },
@@ -387,16 +392,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Connect Any Database",
-    text: "Easily link Vaame to MySQL, MS SQL, Oracle, SQLite, PostgreSQL, and more. Start querying your data instantly-no complex setup required.",
+    title: "Text to SQL in Seconds",
+    text: "Just type what you're looking for in plain English—Vaame instantly translates it into optimized SQL queries so you don’t have to.",
     backgroundUrl: "/src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "AI-Powered SQL Generation",
-    text: "Describe your data needs in plain English and let Vaame’s AI generate complex, optimized SQL queries for you in seconds.",
+    title: "Visualize Your Data Instantly",
+    text: "Turn SQL queries into beautiful, interactive charts and graphs—automatically. No more exporting to other tools.",
     backgroundUrl: "/src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -404,16 +409,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "No Coding Required",
-    text: "Get the exact data you need without writing a single line of SQL. Vaame handles everything from simple lookups to advanced joins.",
+    title: "Upload & Query CSV/Excel",
+    text: "Drop in your CSV or Excel files and start querying them like a database—directly in Vaame, with full SQL support.",
     backgroundUrl: "/src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Lightning-Fast Results",
-    text: "Vaame delivers instant results-generate, review, and run SQL queries in seconds, so you can focus on insights, not syntax.",
+    title: "Export & Share with Ease",
+    text: "Download visual reports or export query results in one click. Sharing your insights has never been this easy.",
     backgroundUrl: "/src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -421,21 +426,22 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Seamless Collaboration",
-    text: "Share queries and results with your team, track query history, and streamline your workflow-all within Vaame.",
+    title: "Friendly for Everyone",
+    text: "Whether you're a data analyst, business user, or founder, Vaame’s intuitive design makes it simple for anyone to explore data.",
     backgroundUrl: "/src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Enterprise-Grade Security",
-    text: "Your data is protected with top-tier security protocols. Vaame ensures safe connections and privacy for every query.",
+    title: "Secure by Design",
+    text: "Vaame uses enterprise-grade security to protect your data. Your files, queries, and insights stay safe and private.",
     backgroundUrl: "/src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
 ];
+
 
 
 

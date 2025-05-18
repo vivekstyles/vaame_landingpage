@@ -31,9 +31,9 @@ const Hero = () => {
               <Typewriter 
                 options={{
                   strings: [
-                    "AI-Powered SQL Query Generation",
-                    // "AI Chatting",
-                    // "Code Generation",
+                    "Effortless Querying Across Any Data",
+                    "No-Code Data Analysis for Everyone",
+                    "Natural Language to Insightful Charts",
                   ],
                   autoStart: true,
                   loop: true,
@@ -43,8 +43,7 @@ const Hero = () => {
           </h1>
 
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Unleash the power of AI within Vaame. Upgrade your productivity
-            with{" "}
+            Ask any question about your data in plain English and watch{" "}
             <span className="inline-block relative font-semibold">
               Vaame
               <img
@@ -55,11 +54,11 @@ const Hero = () => {
                 alt="Curve"
               />
             </span>
-            , the AI-driven SQL query platform.
+            , instantly generate SQL and beautiful visualizations. It's like having a friendly data analyst on your team — no coding required. Focus on insights, not queries!
           </p>
 
           <Button href="https://waitlist.vaame.tech/" white>
-            Join waitlist
+            Get Started for Free
           </Button>
         </div>
 
@@ -91,12 +90,12 @@ const Hero = () => {
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
-                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                    title="Code generation"
+                    className="absolute right-1 bottom-16 w-[14rem] h-[6rem] scale-75 md:scale-100 md:right-4 md:w-[15rem] lg:-right-[5.5rem] lg:bottom-[11rem] lg:w-[18rem] flex"
+                    title="SQL to visualizations"
                   />
                   <Notification
-                    className="hidden absolute -left-[5.5rem] top-[11rem] w-[18rem] xl:flex"
-                    title="SQL generation"
+                    className="absolute left-1 top-20 w-[14rem] h-[6rem] scale-75 md:scale-100 md:left-4 md:w-[15rem] lg:-left-[5.5rem] lg:top-[11rem] lg:w-[18rem] flex"
+                    title="Text to SQL"
                   />
                 </ScrollParallax>
               </div>
@@ -118,7 +117,7 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
 
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
+        <CompanyLogos className="relative z-10 mt-20" />
       </div>
 
       <BottomLine />

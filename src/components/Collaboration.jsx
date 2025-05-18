@@ -111,7 +111,7 @@ const DatabaseIntegration = () => {
           <h2 className="h2 mb-4 md:mb-8">
             Effortless
             <span className="inline-block relative font-semibold">
-              Database Integration
+              Data Integration
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2 pointer-events-none select-none"
@@ -143,7 +143,7 @@ const DatabaseIntegration = () => {
             ))}
           </ul>
 
-          <Button href='https://waitlist.vaame.tech/'>Connect Your Database</Button>
+          <Button href='https://waitlist.vaame.tech/'>Join waitlist</Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
